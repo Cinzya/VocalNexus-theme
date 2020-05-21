@@ -1,0 +1,293 @@
+/*
+Theme Name: VocalNexus
+Author: Cynthia Ebert
+Version: 2.0
+*/
+@import url("./css/background.css");
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./font/aileron/Aileron-Heavy.otf") format("otf");
+}
+
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./font/aileron/Aileron-Regular.otf") format("otf");
+}
+
+* {
+  color: #F1F3E8;
+  font-family: 'Aileron', sans-serif;
+}
+
+body {
+  position: relative;
+  background-image: url("./img/Flori_highres.png"), url("./img/Background_highres_extended2.png");
+  background-size: 65%, 100%;
+  background-repeat: no-repeat;
+  background-position: top right, top;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 73.125rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, .main-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.site-header {
+  margin-top: 1.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Aileron', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+/* Navigation */
+.main-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.main-navigation li {
+  margin: 0 1.5625rem;
+  padding: 0;
+}
+
+.main-navigation li a {
+  font-size: 18px;
+}
+
+.radio-button {
+  padding: 0.75rem 1.75rem;
+  border: 0.0625rem solid #F1F3E8;
+  border-radius: 10%;
+}
+
+.radio-button a {
+  font-style: italic;
+}
+
+/* Body */
+/* General */
+p {
+  line-height: 1.5;
+  margin-top: 3.875rem;
+  font-size: 1.125rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 2.6875rem;
+  font-weight: 400;
+  color: #F1F3E8;
+  margin-top: 1.6875rem;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttons {
+  margin-top: 5.3125rem;
+}
+
+.buttons a {
+  padding: 1.1875rem;
+  border-radius: 7%;
+  text-decoration: none;
+  border: 1px solid #F1F3E8;
+}
+
+.buttons a:first-child {
+  background-color: #E72163;
+  color: white;
+  border: none;
+  margin-right: 0.875rem;
+}
+
+.social-media {
+  display: flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -ms-flex-direction: row;
+  margin-left: 0;
+  margin-top: 2.5rem;
+}
+
+.social-media img {
+  margin-right: 1.6875rem;
+  height: 3.75rem;
+}
+
+/*Sections*/
+.introduction {
+  margin-top: 9rem;
+}
+
+.introduction h2 {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 900;
+  font-size: 71px;
+}
+
+.introduction .text {
+  width: 18.75rem;
+}
+
+.introduction .text p {
+  margin-top: 1.875rem;
+  color: #020F1F;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+.team {
+  margin-top: 25.25rem;
+}
+
+.team h2 {
+  color: #E72163;
+}
+
+.team p {
+  color: #020F1F;
+  width: 29.375rem;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+.projekte {
+  margin-top: 14.875rem;
+}
+
+.projekte h2, .projekte h3, .projekte figcaption {
+  text-align: center;
+}
+
+.projekte h2, .projekte h3 {
+  width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+.projekte h2 {
+  color: #40C9B1;
+}
+
+.projekte h3 {
+  color: #020F1F;
+}
+
+.projekte .row {
+  margin-top: 8.125rem;
+}
+
+.projekte .row img {
+  height: 12.5625rem;
+  width: 12.5625rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.projekte figcaption {
+  margin-top: 2.25rem;
+  font-size: 20px;
+  color: #020F1F;
+  text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
+}
+
+.projekte .text-box {
+  background-color: #020F1F;
+  border-radius: 7%;
+  margin-top: 7.8125rem;
+}
+
+.projekte .text {
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.projekte p {
+  margin: 0;
+}
+
+.partner {
+  margin-top: 14.875rem;
+}
+
+.partner h2, .partner h3 {
+  text-align: center;
+}
+
+.spende {
+  margin-top: 14.875rem;
+}
+
+.spende h2, .spende h3, .spende p {
+  text-align: center;
+}
+
+.spende p {
+  width: 30.625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spende .social-media {
+  margin: 4.6875rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spende .social-media img:nth-child(2) {
+  margin-left: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */
