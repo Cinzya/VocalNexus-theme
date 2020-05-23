@@ -48,6 +48,7 @@ h1, h2, h3, .main-navigation ul {
 /* Header */
 .site-header {
   margin-top: 1.75rem;
+  margin-bottom: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,10 +166,6 @@ h3 {
 }
 
 /*Sections*/
-.introduction {
-  margin-top: 9rem;
-}
-
 .introduction h2 {
   font-family: 'Aileron', sans-serif;
   font-weight: 900;
@@ -230,13 +227,13 @@ h3 {
   height: 12.5625rem;
   width: 12.5625rem;
   border-radius: 50%;
-  background-color: white;
+  color: none;
 }
 
 .projekte figcaption {
   margin-top: 2.25rem;
   font-size: 20px;
-  color: #020F1F;
+  color: #F1F3E8;
   text-shadow: 0rem 0.1875rem 0.375rem rgba(0, 0, 0, 0.2);
 }
 
@@ -289,5 +286,11 @@ h3 {
 
 .spende .social-media img:nth-child(2) {
   margin-left: 2.5rem;
+}
+
+.about-us .members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

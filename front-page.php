@@ -31,12 +31,12 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
     <div class="row">
         <figure class="radio active">
-            <img src="<?php echo get_theme_file_uri("/img/VocalNexus-Logo-2.png") ?>" alt="Bild vom Radiostudio">
+            <img src="<?php echo get_theme_file_uri("/img/radioimg.png") ?>" alt="Bild vom Radiostudio">
             <figcaption>Radio</figcaption>
         </figure>
 
         <figure class="cons">
-            <img src="<?php echo get_theme_file_uri("/img/VocalNexus-Logo-2.png") ?>" alt="Bild vom Stand">
+            <img src="<?php echo get_theme_file_uri("/img/conventionimg.png") ?>" alt="Bild vom Stand">
             <figcaption>Conventions</figcaption>
         </figure>
 

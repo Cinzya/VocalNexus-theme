@@ -60,6 +60,7 @@ h1, h2, h3, .main-navigation ul{
 /* Header */
 .site-header {
     margin-top: 1.75rem;
+    margin-bottom: 9rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -170,7 +171,6 @@ h3 {
 
 /*Sections*/
 .introduction {
-    margin-top: 9rem;
 
     h2 {
         font-family: 'Aileron', sans-serif;
@@ -233,7 +233,8 @@ h3 {
             height: 12.5625rem;
             width: 12.5625rem;
             border-radius: 50%;
-            background-color: white;
+            color: none;
+            // background-color: white;
         }
 
     }
@@ -241,7 +242,7 @@ h3 {
     figcaption {
         margin-top: 2.25rem;
         font-size: 20px;
-        color: $vocalnexus-black;
+        color: $vocalnexus-white;
         text-shadow: $vocalnexus-shadow;
     }
 
@@ -290,5 +291,11 @@ h3 {
         img:nth-child(2) {
             margin-left: 2.5rem;
         }
+    }
+}
+
+.about-us {
+    .members {
+        display: flex;
     }
 }
