@@ -70,6 +70,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
         <a href="https://vocadb.net/"><img src="<?php echo get_theme_file_uri("/img/Logos/vocaDB-title.png") ?>" alt=""></a>
         <a href="https://www.yoistyle.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/yoistyle.png") ?>" alt=""></a>
         <a href="https://vocamerica.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/vocamerica.jpg") ?>" alt=""></a>
+        <a href="https://japanradio.de/"><img src="<?php echo get_theme_file_uri("/img/Logos/cropped-Logowebsite-2.png") ?>" alt=""></a>
     </figure>
 
     <div class="text">
