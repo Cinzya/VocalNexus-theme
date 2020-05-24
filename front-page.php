@@ -62,12 +62,14 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     <h2>Danke an unsere</h2>
     <h3>Partner</h3>
 
-    <figure id="marquee-container">
-        <img src="<?php echo get_theme_file_uri("/img/Logos/aki.png") ?>" alt="">
-        <img src="<?php echo get_theme_file_uri("/img/Logos/VB_-1.png") ?>" alt="">
-        <img src="<?php echo get_theme_file_uri("/img/Logos/bigheadlogo.png") ?>" alt="">
-        <img src="<?php echo get_theme_file_uri("/img/Logos/Vinny_Logo.png") ?>" alt="">
-        <img src="<?php echo get_theme_file_uri("/img/Logos/vocaDB-title.png") ?>" alt="">
+    <figure class="images">
+        <a href="https://www.akinomatsuri.ch/"><img id="aki" src="<?php echo get_theme_file_uri("/img/Logos/aki.png") ?>" alt=""></a>
+        <a href="https://vocaberlin.jimdofree.com/"><img id="" src="<?php echo get_theme_file_uri("/img/Logos/VB_-1.png") ?>" alt=""></a>
+        <a href="https://www.bigheadp.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/bigheadlogo.png") ?>" alt=""></a>
+        <a href="https://www.vinnyvieh.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/Vinny_Logo.png") ?>" alt=""></a>
+        <a href="https://vocadb.net/"><img src="<?php echo get_theme_file_uri("/img/Logos/vocaDB-title.png") ?>" alt=""></a>
+        <a href="https://www.yoistyle.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/yoistyle.png") ?>" alt=""></a>
+        <a href="https://vocamerica.com/"><img src="<?php echo get_theme_file_uri("/img/Logos/vocamerica.jpg") ?>" alt=""></a>
     </figure>
 
     <div class="text">

@@ -260,6 +260,23 @@ h3 {
   text-align: center;
 }
 
+.partner .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
+.partner .images img {
+  height: 50px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+
 .spende {
   margin-top: 14.875rem;
 }

@@ -268,7 +268,19 @@ h3 {
     h2, h3 {
         text-align: center;
     }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        img {
+            height: 50px;
+            box-sizing: content-box;
+            padding-right: 25px;
+            margin-top: 20px;
+        }
+    }
 }
+
 
 .spende {
     margin-top: 14.875rem;
